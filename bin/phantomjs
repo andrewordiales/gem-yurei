@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'yurei'
+
+exec "#{Yurei.phantomjs_path} #{ARGV.join(' ')}"
