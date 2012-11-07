@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
   s.homepage      = 'http://github.com/andruandru/yurei'
 
   s.require_paths = ['lib']
-  s.files         = Dir.glob("{lib,bin,vendor}/**/*") #`git ls-files`.split("\n") 
+  s.files         = Dir.glob("{lib,bin,vendor}/**/*") #`git ls-files`.split("\n")
   s.executables   << 'phantomjs'
-  
+  s.executables   << 'casperjs'
+
 end
