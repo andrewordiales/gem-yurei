@@ -1,3 +1,5 @@
+> NOTE: Repo name will be changed from `yurei` to `gem-yurei` 
+
 yurei
 =====
 
